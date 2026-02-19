@@ -1,4 +1,0 @@
-python-telegram-bot==20.7
-anthropic==0.18.1
-pyotp==2.9.0
-requests==2.31.0
