@@ -33,7 +33,7 @@ else:
 MAX_POSITIONS = int(os.environ.get('MAX_POSITIONS', '2'))
 DAILY_LOSS_LIMIT = float(os.environ.get('DAILY_LOSS_LIMIT', '0.15'))
 TARGET = float(os.environ.get('TARGET_PERCENT', '0.30'))
-STOP_LOSS = float(os.environ.get('STOP_LOSS_PERCENT', '0.30'))
+STOP_LOSS = float(os.environ.get('STOP_LOSS_PERCENT', '0.20'))
 MAX_HOLD_TIME = int(os.environ.get('MAX_HOLD_TIME_MIN', '25'))
 MIN_SIGNAL_POINTS = int(os.environ.get('MIN_SIGNAL_POINTS', '10'))
 MARKET_OPEN = time(9, 15)
