@@ -1,3 +1,2 @@
 python-telegram-bot==20.7
 requests==2.31.0
-pyotp==2.9.0
